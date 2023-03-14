@@ -60,14 +60,16 @@ body{
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
   grid-gap: 2rem;
   text-align: center;
 }
 
-.grid img{
-  height: 60px;
-  margin: auto;
+.grid_col_5{
+  grid-template-columns: repeat(5,1fr);
+}
+
+.grid_col_3{
+  grid-template-columns: repeat(3,1fr);
 }
 
 .flex{

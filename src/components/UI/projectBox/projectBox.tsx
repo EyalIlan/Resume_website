@@ -1,7 +1,8 @@
 import React from 'react'
 import "./projectBox.css"
 interface Props {
-
+    title:string
+    description:string
 }
 
 const projectBox: React.FC<Props> = () => {
@@ -18,8 +19,8 @@ const projectBox: React.FC<Props> = () => {
             </div>
             <div className='boxButtons'>
 
-                <button>Github</button>
-                <button>Live</button>
+                <button className='btn  btn-outline-primary'>Github</button>
+                <button className='btn  btn-outline-primary'>Live</button>
 
             </div>
         </div>
