@@ -1,0 +1,15 @@
+
+.footer{
+
+    height: 30vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 21px;
+    color: white;
+    margin-bottom: 10px;
+}
